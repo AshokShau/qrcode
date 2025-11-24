@@ -26,7 +26,8 @@ package main
 
 import (
 	"os"
-	"github.com/yourusername/qrcode"
+	
+	"github.com/ashokshau/qrcode"
 )
 
 func main() {
@@ -57,7 +58,8 @@ package main
 import (
 	"fmt"
 	"os"
-	"github.com/yourusername/qrcode"
+	
+	"github.com/ashokshau/qrcode"
 )
 
 func main() {
@@ -78,9 +80,9 @@ func main() {
 
 ## Error Correction Levels
 
-| Level | Error Correction Capability |
-|-------|----------------------------|
-| L     | ~7% of data can be restored |
+| Level | Error Correction Capability  |
+|-------|------------------------------|
+| L     | ~7% of data can be restored  |
 | M     | ~15% of data can be restored |
 | Q     | ~25% of data can be restored |
 | H     | ~30% of data can be restored |
